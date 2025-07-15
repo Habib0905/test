@@ -1,4 +1,4 @@
-name: Deploy
+name: Test Workflow
 
 on:
   push:
@@ -6,7 +6,7 @@ on:
       - main
 
 jobs:
-  deploy:
+  read_file:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository code
